@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">UniBh</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" [routerLink]="['/pessoas']"routerLinkActive="active">Pessoas</a>
+        <a class="nav-item nav-link" [routerLink]="['/anotacao']"routerLinkActive="active">Anotação</a>
+        <a class="nav-item nav-link" [routerLink]="['/login']"routerLinkActive="active">Login</a>
+        <a class="nav-item nav-link" [routerLink]="['/pessoas']"routerLinkActive="active">Perfil</a>
+        <a class="nav-item nav-link" [routerLink]="['/pessoas']"routerLinkActive="active">Recurso</a>
+        <a class="nav-item nav-link" [routerLink]="['/pessoas']"routerLinkActive="active">Perfil Resurso</a>
+        <a class="nav-item nav-link" [routerLink]="['/pessoas']"routerLinkActive="active">Pessoas Grupo</a>
+        
+      </div>
+    </div>
+  </nav>
+  <Div>
+      <router-outlet></router-outlet>
+  </Div>
+
+  <footer>
+      <h6>Autor: Diogenes Aloisio da Rocha Gonçalves</h6>
+  </footer>
